@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* common css end */
+
+/* nav part css start */
+
+.nav_main{
+    display: flex;
+}
+
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 50%;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    font-family: 'Poppins', sans-serif;
+    padding: 0 24px
+}
+.register{
+    width: 35%;
+}
+.register .btn{
+    text-align: end;
+}
+/* nav part css end */
+
+.inline{
+    color: red;
+    height: 20px;
+    width: 50px;
+    display: inline;
+    background-color: aqua;
+}
